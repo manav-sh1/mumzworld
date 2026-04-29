@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mumzworld Gift Finder — AI-Powered Baby Gift Recommendations</title>
+  <meta name="description"
+    content="Find the perfect gift for babies, toddlers, and new mothers with Mumzworld's AI-powered bilingual gift finder." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Ambient Background -->
+  <div class="ambient-bg">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-group">
+        <div class="logo-icon">🎁</div>
+        <div class="logo-text">
+          <h1 id="app-title">Mumzworld Gift Finder</h1>
+          <p id="app-subtitle" class="subtitle">AI-powered baby gift recommendations</p>
+        </div>
+      </div>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">
+        <span class="lang-toggle-text">العربية</span>
+        <span class="lang-toggle-icon">🌐</span>
+      </button>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+      <div class="search-card glass-card">
+        <label id="search-label" for="query-input" class="search-label">
+          Describe the gift you're looking for...
+        </label>
+        <div class="search-input-wrap">
+          <input type="text" id="query-input" class="search-input"
+            placeholder="e.g. thoughtful gift for a friend with a 6-month-old, under 200 AED" maxlength="1000"
+            autocomplete="off" />
+          <button id="search-btn" class="search-btn" aria-label="Find Gifts">
+            <span class="btn-text" id="btn-text">Find Gifts</span>
+            <span class="btn-spinner" id="btn-spinner" hidden>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-dasharray="31.4 31.4">
+                  <animateTransform attributeName="transform" type="rotate" dur="0.8s" from="0 12 12" to="360 12 12"
+                    repeatCount="indefinite" />
+                </circle>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <!-- Quick examples -->
+        <div class="quick-examples">
+          <span id="examples-label" class="examples-label">Try:</span>
+          <button class="example-chip" data-query="gift for a friend with a 6-month-old, under 200 AED">🎂 6-month-old
+            under 200 AED</button>
+          <button class="example-chip" data-query="هدية لصديقتي عندها طفل عمره 6 أشهر، الميزانية 200 درهم">🇦🇪 هدية
+            لطفل 6 أشهر</button>
+          <button class="example-chip" data-query="educational gift for a 12-month-old who loves music">🎵 Music-loving
+            1-year-old</button>
+          <button class="example-chip" data-query="newborn baby shower gift, budget 300 AED">🍼 Newborn baby
+            shower</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Messages Area (clarification / refusal / error) -->
+    <section id="messages-area" class="messages-area" hidden>
+      <div id="message-card" class="message-card glass-card">
+        <div class="message-icon" id="message-icon">💬</div>
+        <p class="message-text" id="message-text"></p>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results-area" class="results-area" hidden>
+      <h2 id="results-heading" class="results-heading">Recommended Gifts</h2>
+      <div id="results-grid" class="results-grid"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Powered by AI · Mumzworld Gift Finder Prototype · <span id="footer-year">2026</span></p>
+    </footer>
+  </div>
+
+  <!-- Card Template -->
+  <template id="card-template">
+    <article class="gift-card glass-card">
+      <div class="card-header">
+        <div class="card-badge confidence-badge" data-confidence="">
+          <span class="badge-dot"></span>
+          <span class="badge-text"></span>
+        </div>
+        <span class="card-price"></span>
+      </div>
+      <h3 class="card-name"></h3>
+      <span class="card-category"></span>
+      <div class="card-reason">
+        <p class="reason-text" dir="ltr"></p>
+      </div>
+      <div class="card-tags"></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
