@@ -1,0 +1,953 @@
+[
+  {
+    "id": "P001",
+    "name": "Fisher-Price Laugh & Learn Smart Learning Chair",
+    "price_aed": 149,
+    "age_months_min": 6,
+    "age_months_max": 36,
+    "category": "Toys & Learning",
+    "tags": [
+      "educational",
+      "interactive",
+      "sitting",
+      "music"
+    ]
+  },
+  {
+    "id": "P002",
+    "name": "Chicco Baby Senses Rattle Set (6-piece)",
+    "price_aed": 55,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Toys & Learning",
+    "tags": [
+      "sensory",
+      "newborn",
+      "rattle",
+      "motor-skills"
+    ]
+  },
+  {
+    "id": "P003",
+    "name": "Ergobaby Omni 360 Baby Carrier",
+    "price_aed": 695,
+    "age_months_min": 0,
+    "age_months_max": 48,
+    "category": "Carriers & Wraps",
+    "tags": [
+      "carrier",
+      "ergonomic",
+      "newborn",
+      "toddler"
+    ]
+  },
+  {
+    "id": "P004",
+    "name": "MAM Anti-Colic Bottle Starter Set",
+    "price_aed": 120,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Feeding",
+    "tags": [
+      "bottles",
+      "anti-colic",
+      "newborn",
+      "feeding"
+    ]
+  },
+  {
+    "id": "P005",
+    "name": "Babyzen YOYO2 Stroller (6+)",
+    "price_aed": 2199,
+    "age_months_min": 6,
+    "age_months_max": 48,
+    "category": "Strollers",
+    "tags": [
+      "stroller",
+      "travel",
+      "compact",
+      "premium"
+    ]
+  },
+  {
+    "id": "P006",
+    "name": "Jellycat Bashful Bunny Soft Toy (Medium)",
+    "price_aed": 89,
+    "age_months_min": 0,
+    "age_months_max": 120,
+    "category": "Soft Toys",
+    "tags": [
+      "plush",
+      "comforter",
+      "soft-toy",
+      "gift"
+    ]
+  },
+  {
+    "id": "P007",
+    "name": "Munchkin 360 Miracle Cup (2-pack)",
+    "price_aed": 75,
+    "age_months_min": 12,
+    "age_months_max": 36,
+    "category": "Feeding",
+    "tags": [
+      "sippy-cup",
+      "toddler",
+      "spill-proof"
+    ]
+  },
+  {
+    "id": "P008",
+    "name": "Infantino Flip 4-in-1 Convertible Carrier",
+    "price_aed": 159,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Carriers & Wraps",
+    "tags": [
+      "carrier",
+      "budget-friendly",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P009",
+    "name": "Lovevery Play Gym (The Play Kit)",
+    "price_aed": 399,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Toys & Learning",
+    "tags": [
+      "play-gym",
+      "developmental",
+      "newborn",
+      "tummy-time"
+    ]
+  },
+  {
+    "id": "P010",
+    "name": "Skip Hop Bandana Buddies Activity Toy",
+    "price_aed": 99,
+    "age_months_min": 3,
+    "age_months_max": 18,
+    "category": "Toys & Learning",
+    "tags": [
+      "activity-toy",
+      "teething",
+      "sensory"
+    ]
+  },
+  {
+    "id": "P011",
+    "name": "Mustela Foam Shampoo for Newborns (150ml)",
+    "price_aed": 45,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Bath & Skincare",
+    "tags": [
+      "skincare",
+      "shampoo",
+      "gentle",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P012",
+    "name": "Tommee Tippee Closer to Nature Electric Steriliser",
+    "price_aed": 249,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Feeding",
+    "tags": [
+      "steriliser",
+      "bottles",
+      "hygiene",
+      "practical"
+    ]
+  },
+  {
+    "id": "P013",
+    "name": "Graco Pack 'n Play Playard with Bassinet",
+    "price_aed": 549,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Sleep & Nursery",
+    "tags": [
+      "playard",
+      "bassinet",
+      "travel",
+      "sleep"
+    ]
+  },
+  {
+    "id": "P014",
+    "name": "Nuby Teething Keys Toy",
+    "price_aed": 35,
+    "age_months_min": 3,
+    "age_months_max": 12,
+    "category": "Teething",
+    "tags": [
+      "teething",
+      "toy",
+      "sensory",
+      "budget-friendly"
+    ]
+  },
+  {
+    "id": "P015",
+    "name": "Aden + Anais Dream Blanket (Muslin)",
+    "price_aed": 189,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Sleep & Nursery",
+    "tags": [
+      "blanket",
+      "muslin",
+      "swaddle",
+      "gift",
+      "premium"
+    ]
+  },
+  {
+    "id": "P016",
+    "name": "Mothercare Luxury Bath Set (Gift Box)",
+    "price_aed": 165,
+    "age_months_min": 0,
+    "age_months_max": 24,
+    "category": "Bath & Skincare",
+    "tags": [
+      "gift-set",
+      "bath",
+      "skincare",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P017",
+    "name": "BabyBjörn Bouncer Bliss (Cotton)",
+    "price_aed": 799,
+    "age_months_min": 0,
+    "age_months_max": 24,
+    "category": "Bouncers & Swings",
+    "tags": [
+      "bouncer",
+      "ergonomic",
+      "premium",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P018",
+    "name": "Bright Starts Tummy Time Prop & Play Mat",
+    "price_aed": 129,
+    "age_months_min": 0,
+    "age_months_max": 6,
+    "category": "Toys & Learning",
+    "tags": [
+      "tummy-time",
+      "mat",
+      "newborn",
+      "motor-skills"
+    ]
+  },
+  {
+    "id": "P019",
+    "name": "Philips Avent Natural Baby Bottle (4-pack)",
+    "price_aed": 148,
+    "age_months_min": 0,
+    "age_months_max": 18,
+    "category": "Feeding",
+    "tags": [
+      "bottles",
+      "natural",
+      "breastfeeding-friendly"
+    ]
+  },
+  {
+    "id": "P020",
+    "name": "VTech Baby Lil' Critters Moosical Beads",
+    "price_aed": 79,
+    "age_months_min": 3,
+    "age_months_max": 24,
+    "category": "Toys & Learning",
+    "tags": [
+      "music",
+      "interactive",
+      "sensory",
+      "beads"
+    ]
+  },
+  {
+    "id": "P021",
+    "name": "Hape Pound & Tap Bench with Xylophone",
+    "price_aed": 135,
+    "age_months_min": 12,
+    "age_months_max": 36,
+    "category": "Toys & Learning",
+    "tags": [
+      "music",
+      "wooden",
+      "educational",
+      "motor-skills"
+    ]
+  },
+  {
+    "id": "P022",
+    "name": "Chicco Polly Highchair 2-in-1",
+    "price_aed": 449,
+    "age_months_min": 6,
+    "age_months_max": 36,
+    "category": "Feeding",
+    "tags": [
+      "highchair",
+      "adjustable",
+      "practical",
+      "mealtime"
+    ]
+  },
+  {
+    "id": "P023",
+    "name": "Sophie la Girafe Teething Toy",
+    "price_aed": 85,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Teething",
+    "tags": [
+      "teething",
+      "natural-rubber",
+      "sensory",
+      "gift"
+    ]
+  },
+  {
+    "id": "P024",
+    "name": "Tiny Love Meadow Days Gymini Deluxe",
+    "price_aed": 199,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Toys & Learning",
+    "tags": [
+      "play-gym",
+      "arches",
+      "sensory",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P025",
+    "name": "Medela Swing Maxi Double Electric Breast Pump",
+    "price_aed": 1199,
+    "age_months_min": 0,
+    "age_months_max": 24,
+    "category": "Nursing & Pumping",
+    "tags": [
+      "breast-pump",
+      "electric",
+      "double",
+      "premium"
+    ]
+  },
+  {
+    "id": "P026",
+    "name": "Pampers Premium Care Nappies (Size 2, 186-pack)",
+    "price_aed": 139,
+    "age_months_min": 0,
+    "age_months_max": 6,
+    "category": "Diapering",
+    "tags": [
+      "nappies",
+      "premium",
+      "bulk",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P027",
+    "name": "Baby Einstein Take Along Tunes Musical Toy",
+    "price_aed": 49,
+    "age_months_min": 3,
+    "age_months_max": 36,
+    "category": "Toys & Learning",
+    "tags": [
+      "music",
+      "portable",
+      "sensory",
+      "budget-friendly"
+    ]
+  },
+  {
+    "id": "P028",
+    "name": "Maxi-Cosi Pebble 360 Car Seat",
+    "price_aed": 1599,
+    "age_months_min": 0,
+    "age_months_max": 15,
+    "category": "Car Seats",
+    "tags": [
+      "car-seat",
+      "i-size",
+      "rotating",
+      "safety",
+      "premium"
+    ]
+  },
+  {
+    "id": "P029",
+    "name": "Joie Dreamer Rocker & Bouncer",
+    "price_aed": 299,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Bouncers & Swings",
+    "tags": [
+      "bouncer",
+      "rocker",
+      "vibration",
+      "music"
+    ]
+  },
+  {
+    "id": "P030",
+    "name": "Babymoov Nutribaby Food Processor & Steamer",
+    "price_aed": 499,
+    "age_months_min": 4,
+    "age_months_max": 36,
+    "category": "Feeding",
+    "tags": [
+      "food-processor",
+      "steamer",
+      "weaning",
+      "practical"
+    ]
+  },
+  {
+    "id": "P031",
+    "name": "Lego Duplo My First Number Train",
+    "price_aed": 89,
+    "age_months_min": 18,
+    "age_months_max": 60,
+    "category": "Toys & Learning",
+    "tags": [
+      "duplo",
+      "counting",
+      "educational",
+      "building"
+    ]
+  },
+  {
+    "id": "P032",
+    "name": "Cloud Island Organic Cotton Sleepsuit Set (3-pack)",
+    "price_aed": 119,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Clothing",
+    "tags": [
+      "organic",
+      "cotton",
+      "sleepsuit",
+      "gift",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P033",
+    "name": "Summer Infant SwaddleMe Original (3-pack)",
+    "price_aed": 115,
+    "age_months_min": 0,
+    "age_months_max": 4,
+    "category": "Sleep & Nursery",
+    "tags": [
+      "swaddle",
+      "sleep",
+      "newborn",
+      "comfort"
+    ]
+  },
+  {
+    "id": "P034",
+    "name": "NUK Space Soother & Clip Set",
+    "price_aed": 42,
+    "age_months_min": 0,
+    "age_months_max": 18,
+    "category": "Pacifiers & Soothers",
+    "tags": [
+      "soother",
+      "pacifier",
+      "clip",
+      "budget-friendly"
+    ]
+  },
+  {
+    "id": "P035",
+    "name": "Babyganics Sunscreen Spray SPF 50+ (177ml)",
+    "price_aed": 65,
+    "age_months_min": 6,
+    "age_months_max": 60,
+    "category": "Bath & Skincare",
+    "tags": [
+      "sunscreen",
+      "outdoor",
+      "sensitive-skin",
+      "mineral"
+    ]
+  },
+  {
+    "id": "P036",
+    "name": "Skip Hop Zoo Backpack (Toddler)",
+    "price_aed": 129,
+    "age_months_min": 12,
+    "age_months_max": 48,
+    "category": "Travel & Gear",
+    "tags": [
+      "backpack",
+      "toddler",
+      "nursery",
+      "cute"
+    ]
+  },
+  {
+    "id": "P037",
+    "name": "Infantino Wom Music & Lights 3-in-1 Discovery Seat",
+    "price_aed": 219,
+    "age_months_min": 4,
+    "age_months_max": 12,
+    "category": "Toys & Learning",
+    "tags": [
+      "activity-seat",
+      "music",
+      "lights",
+      "interactive"
+    ]
+  },
+  {
+    "id": "P038",
+    "name": "Lansinoh Breastmilk Storage Bags (50-pack)",
+    "price_aed": 55,
+    "age_months_min": 0,
+    "age_months_max": 24,
+    "category": "Nursing & Pumping",
+    "tags": [
+      "storage-bags",
+      "breastmilk",
+      "practical",
+      "budget-friendly"
+    ]
+  },
+  {
+    "id": "P039",
+    "name": "Fisher-Price Deluxe Kick & Play Piano Gym",
+    "price_aed": 189,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Toys & Learning",
+    "tags": [
+      "play-gym",
+      "piano",
+      "music",
+      "tummy-time",
+      "interactive"
+    ]
+  },
+  {
+    "id": "P040",
+    "name": "Stokke Tripp Trapp High Chair",
+    "price_aed": 1099,
+    "age_months_min": 6,
+    "age_months_max": 120,
+    "category": "Feeding",
+    "tags": [
+      "highchair",
+      "adjustable",
+      "premium",
+      "grows-with-child"
+    ]
+  },
+  {
+    "id": "P041",
+    "name": "WaterWipes Biodegradable Baby Wipes (720-pack)",
+    "price_aed": 89,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Diapering",
+    "tags": [
+      "wipes",
+      "biodegradable",
+      "sensitive-skin",
+      "bulk"
+    ]
+  },
+  {
+    "id": "P042",
+    "name": "Manhattan Toy Winkel Rattle & Teether",
+    "price_aed": 59,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Teething",
+    "tags": [
+      "teether",
+      "rattle",
+      "sensory",
+      "motor-skills",
+      "gift"
+    ]
+  },
+  {
+    "id": "P043",
+    "name": "Cybex Sirona S2 i-Size Car Seat",
+    "price_aed": 1899,
+    "age_months_min": 0,
+    "age_months_max": 48,
+    "category": "Car Seats",
+    "tags": [
+      "car-seat",
+      "i-size",
+      "rotating",
+      "premium",
+      "safety"
+    ]
+  },
+  {
+    "id": "P044",
+    "name": "Tommee Tippee Perfect Prep Day & Night Machine",
+    "price_aed": 549,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Feeding",
+    "tags": [
+      "formula-prep",
+      "night-feeds",
+      "practical",
+      "premium"
+    ]
+  },
+  {
+    "id": "P045",
+    "name": "Hape Shape Sorting Box",
+    "price_aed": 69,
+    "age_months_min": 12,
+    "age_months_max": 36,
+    "category": "Toys & Learning",
+    "tags": [
+      "wooden",
+      "shapes",
+      "educational",
+      "motor-skills"
+    ]
+  },
+  {
+    "id": "P046",
+    "name": "Mustela Newborn Arrival Gift Set",
+    "price_aed": 195,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Bath & Skincare",
+    "tags": [
+      "gift-set",
+      "skincare",
+      "newborn",
+      "premium",
+      "gentle"
+    ]
+  },
+  {
+    "id": "P047",
+    "name": "Baby Jogger City Mini GT2 Stroller",
+    "price_aed": 1449,
+    "age_months_min": 0,
+    "age_months_max": 48,
+    "category": "Strollers",
+    "tags": [
+      "stroller",
+      "all-terrain",
+      "one-hand-fold",
+      "premium"
+    ]
+  },
+  {
+    "id": "P048",
+    "name": "Lego Duplo Animals of the World Set",
+    "price_aed": 249,
+    "age_months_min": 24,
+    "age_months_max": 60,
+    "category": "Toys & Learning",
+    "tags": [
+      "duplo",
+      "animals",
+      "educational",
+      "imaginative-play"
+    ]
+  },
+  {
+    "id": "P049",
+    "name": "Munchkin White Hot Safety Bath Ducks (4-pack)",
+    "price_aed": 29,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Bath & Skincare",
+    "tags": [
+      "bath-toy",
+      "safety",
+      "temperature",
+      "budget-friendly"
+    ]
+  },
+  {
+    "id": "P050",
+    "name": "Owlet Dream Sock Smart Baby Monitor",
+    "price_aed": 1299,
+    "age_months_min": 0,
+    "age_months_max": 18,
+    "category": "Safety & Monitors",
+    "tags": [
+      "monitor",
+      "smart",
+      "oxygen",
+      "heart-rate",
+      "premium"
+    ]
+  },
+  {
+    "id": "P051",
+    "name": "Nuna SENA Aire Travel Cot",
+    "price_aed": 899,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Sleep & Nursery",
+    "tags": [
+      "travel-cot",
+      "lightweight",
+      "premium",
+      "portable"
+    ]
+  },
+  {
+    "id": "P052",
+    "name": "Melissa & Doug Wooden Building Blocks (100-piece)",
+    "price_aed": 109,
+    "age_months_min": 24,
+    "age_months_max": 72,
+    "category": "Toys & Learning",
+    "tags": [
+      "wooden",
+      "blocks",
+      "building",
+      "creative",
+      "educational"
+    ]
+  },
+  {
+    "id": "P053",
+    "name": "Philips Avent Digital Video Baby Monitor",
+    "price_aed": 499,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Safety & Monitors",
+    "tags": [
+      "monitor",
+      "video",
+      "night-vision",
+      "practical"
+    ]
+  },
+  {
+    "id": "P054",
+    "name": "Little Tikes First Slide (Indoor/Outdoor)",
+    "price_aed": 199,
+    "age_months_min": 18,
+    "age_months_max": 60,
+    "category": "Outdoor Play",
+    "tags": [
+      "slide",
+      "outdoor",
+      "active-play",
+      "toddler"
+    ]
+  },
+  {
+    "id": "P055",
+    "name": "Babyzen YOYO Bassinet (0+)",
+    "price_aed": 999,
+    "age_months_min": 0,
+    "age_months_max": 6,
+    "category": "Strollers",
+    "tags": [
+      "bassinet",
+      "newborn",
+      "stroller-accessory",
+      "premium"
+    ]
+  },
+  {
+    "id": "P056",
+    "name": "OXO Tot Sprout Highchair",
+    "price_aed": 899,
+    "age_months_min": 6,
+    "age_months_max": 60,
+    "category": "Feeding",
+    "tags": [
+      "highchair",
+      "modern",
+      "adjustable",
+      "premium"
+    ]
+  },
+  {
+    "id": "P057",
+    "name": "VTech Crawl & Learn Bright Lights Ball",
+    "price_aed": 69,
+    "age_months_min": 6,
+    "age_months_max": 36,
+    "category": "Toys & Learning",
+    "tags": [
+      "crawling",
+      "music",
+      "lights",
+      "motor-skills",
+      "interactive"
+    ]
+  },
+  {
+    "id": "P058",
+    "name": "Aveeno Baby Daily Care Gift Set",
+    "price_aed": 99,
+    "age_months_min": 0,
+    "age_months_max": 36,
+    "category": "Bath & Skincare",
+    "tags": [
+      "gift-set",
+      "sensitive-skin",
+      "oat",
+      "gentle"
+    ]
+  },
+  {
+    "id": "P059",
+    "name": "Playgro Activity Friend Dingly Dangly",
+    "price_aed": 39,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Toys & Learning",
+    "tags": [
+      "stroller-toy",
+      "activity",
+      "clip-on",
+      "sensory",
+      "budget-friendly"
+    ]
+  },
+  {
+    "id": "P060",
+    "name": "BabyBjörn Baby Plate & Spoon Set",
+    "price_aed": 95,
+    "age_months_min": 4,
+    "age_months_max": 36,
+    "category": "Feeding",
+    "tags": [
+      "plate",
+      "spoon",
+      "weaning",
+      "bpa-free",
+      "gift"
+    ]
+  },
+  {
+    "id": "P061",
+    "name": "Ergobaby Swaddler (2-pack)",
+    "price_aed": 145,
+    "age_months_min": 0,
+    "age_months_max": 4,
+    "category": "Sleep & Nursery",
+    "tags": [
+      "swaddle",
+      "hip-healthy",
+      "newborn",
+      "sleep"
+    ]
+  },
+  {
+    "id": "P062",
+    "name": "VTech Sit-to-Stand Learning Walker",
+    "price_aed": 179,
+    "age_months_min": 9,
+    "age_months_max": 36,
+    "category": "Toys & Learning",
+    "tags": [
+      "walker",
+      "educational",
+      "music",
+      "motor-skills",
+      "interactive"
+    ]
+  },
+  {
+    "id": "P063",
+    "name": "Comotomo Natural Feel Baby Bottle Set",
+    "price_aed": 99,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Feeding",
+    "tags": [
+      "bottles",
+      "silicone",
+      "natural-feel",
+      "anti-colic"
+    ]
+  },
+  {
+    "id": "P064",
+    "name": "Jellycat Amuseable Avocado Soft Toy",
+    "price_aed": 75,
+    "age_months_min": 0,
+    "age_months_max": 120,
+    "category": "Soft Toys",
+    "tags": [
+      "plush",
+      "quirky",
+      "gift",
+      "soft-toy",
+      "cute"
+    ]
+  },
+  {
+    "id": "P065",
+    "name": "Infantino 2-in-1 Sit, Spin & Stand Activity Table",
+    "price_aed": 229,
+    "age_months_min": 6,
+    "age_months_max": 36,
+    "category": "Toys & Learning",
+    "tags": [
+      "activity-table",
+      "interactive",
+      "music",
+      "standing",
+      "educational"
+    ]
+  },
+  {
+    "id": "P066",
+    "name": "Badabulle Easy Bathtub with Built-in Thermometer",
+    "price_aed": 159,
+    "age_months_min": 0,
+    "age_months_max": 12,
+    "category": "Bath & Skincare",
+    "tags": [
+      "bathtub",
+      "thermometer",
+      "safety",
+      "practical",
+      "newborn"
+    ]
+  },
+  {
+    "id": "P067",
+    "name": "Taf Toys Koala Musical Cot Mobile",
+    "price_aed": 179,
+    "age_months_min": 0,
+    "age_months_max": 6,
+    "category": "Sleep & Nursery",
+    "tags": [
+      "mobile",
+      "music",
+      "cot",
+      "soothing",
+      "newborn"
+    ]
+  }
+]
