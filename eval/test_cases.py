@@ -63,10 +63,9 @@ TEST_CASES: list[TestCase] = [
     ),
     TestCase(
         id="TC06",
-        description="Out of scope — adult gift",
+        description="Mom-focused gift query",
         query="gift for a pregnant mom, something for herself",
-        expects_refusal=True,
-        max_recommendations=0,
+        min_recommendations=1,
     ),
     TestCase(
         id="TC07",

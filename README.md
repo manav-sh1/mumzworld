@@ -170,7 +170,7 @@ User Input (EN or AR)
 | TC03 | No budget | "thoughtful gift for a newborn baby girl" | Clarification needed |
 | TC04 | Budget too low | "gift for a 1-year-old, budget is 10 AED" | Refusal/empty |
 | TC05 | No match (5yo) | "gift for a 5-year-old, budget 50 AED" | Refusal/empty |
-| TC06 | Out of scope | "gift for a pregnant mom, something for herself" | Refusal |
+| TC06 | Mom-focused gift | "gift for a pregnant mom, something for herself" | 1–5 recommendations |
 | TC07 | Vague input | "something nice for a baby" | Clarification |
 | TC08 | High budget | "gift for a 6-month-old, budget 1000 AED" | 3+ recommendations |
 | TC09 | Specific interest | "educational gift for a 12-month-old who loves music" | 1+ relevant |
