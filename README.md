@@ -33,7 +33,7 @@ Three layers of defense against LLM output instability:
 
 ---
 
-## Setup & Run (< 5 minutes)
+## Setup & Run
 
 ### Prerequisites
 - Python 3.11+
@@ -87,7 +87,7 @@ User Input (EN or AR)
          │
          ▼
 ┌──────────────────┐
-│  Prompt Builder   │  ← Injects parsed params + full catalog JSON (~4K tokens)
+│  Prompt Builder   │  ← Injects parsed params + full catalog JSON
 │  (prompts.py)     │     System prompt enforces catalog grounding + bilingual quality
 └────────┬─────────┘
          │
@@ -138,7 +138,6 @@ User Input (EN or AR)
 | **Exception hierarchy** | `GiftFinderError → LLMError \| SchemaValidationError \| CatalogError` |
 | **Catch-all handler** | Route boundary catches unexpected errors with structured logging |
 | **Empty response guard** | Validates LLM `choices[]` is non-empty before accessing |
-| **Health check** | `GET /api/health` returns `{"status": "ok"}` |
 | **Structured logging** | `structlog` with latency, token usage, and error context on every LLM call |
 | **Grounding validation** | Post-LLM filter removes product names not found in catalog |
 
@@ -192,7 +191,7 @@ The script outputs a score table and saves raw LLM responses to `eval/eval_resul
 ## Tradeoffs
 
 ### Why This Problem
-Gift recommendation is a genuine Mumzworld use case — it combines structured product data with natural language understanding and bilingual output. It's narrow enough to prototype well in 5 hours but complex enough to demonstrate prompt engineering, schema validation, and uncertainty handling.
+Gift recommendation is a genuine Mumzworld use case as it combines structured product data with natural language understanding and bilingual output. It's narrow enough to prototype well in 5 hours but complex enough to demonstrate prompt engineering, schema validation, and uncertainty handling.
 
 ### What I Rejected / Cut
 - **Vector DB / RAG**: With 67 products (~5-10K tokens), full-catalog injection works fine. RAG adds complexity without benefit at this scale.
@@ -230,11 +229,13 @@ The `MODEL_NAME` env var can be changed to any OpenRouter model. Set it in `.env
 
 5. **Parser limitations**: The regex parser handles common patterns but may miss unusual phrasings. The LLM receives the raw query as a fallback.
 
+6. **Frontend error handling**: Sometimes the backend returns errors as `'LLM returned empty message content'`, after the AbortController times out. This leads to a page loading with error but not the exact error or hit with the rate limit error. The current backend error is then reflected on the next request.
+
 ---
 
 ## Tooling Transparency
 
-- **Model**: Qwen 2.5 72B Instruct via OpenRouter
+- **Model**: `qwen/qwen-2.5-72b-instruct` via OpenRouter for the application, `openrouter/free` for running the evaluations.
 - **AI coding assistance**: Used Antigravity (Claude) for pair programming — architecture design, code generation, CSS design, and production hardening audit
 - **What worked**: Structured output with `response_format: json_object` eliminates most parsing failures
 - **What didn't**: Initial system prompt was too permissive — had to iterate 3x to get reliable refusals on out-of-scope queries
